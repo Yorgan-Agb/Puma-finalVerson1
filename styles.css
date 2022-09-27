@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+  background-image: url('/media/background-puma.jpg');
+  margin: 0;
+  height: 100%;
+  width: auto;
+}
+
+#logoContainer {
+  display: flex;
+  justify-content: center;
+}
+
+#logoPicture {
+  width: 100%;
+}
+
+#videoContainer {
+  margin-top: 5%;
+  /* transition-duration: 2s;
+  transition-property: margin-top; */
+}
+
+#videoPuma {
+  width: 100%;
+  /* transform: translateY(-100%); */
+  /* opacity: 0; */
+  z-index: 2;
+}
+
+#deoContainer {
+  margin-top: 8%;
+  z-index: 1;
+}
+
+#deoPicture {
+  width: 100%;
+  z-index: 3;
+}
+
+#circle {
+  width: 100%;
+  border-radius: 100% 100%;
+  height: 15vh;
+  background: rgb(194, 163, 108);
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+#footerContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+#chevron {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  height: 0%;
+}
+
+#fleche {
+  width: 8%;
+}
+#bottomTitle {
+  text-align: center;
+  font-size: 2em;
+  margin-top: 4%;
+  font-family: 'roboto', sans-serif;
+  font-weight: bold;
+  z-index: 1;
+}
+
+#firstText,
+#secondText {
+  font-family: 'roboto', sans-serif;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+
+#textHide {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  align-items: flex-end;
+  /* transform: translateY(100%); */
+  /* transform: scale(0.5);
+  transition-duration: 0.5s; */
+}
+
+#localisation {
+  width: 40%;
+}
+
+#circleContainer {
+  width: 100%;
+  height: 6vh;
+  overflow: hidden;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  align-content: center;
+}
+
+#test {
+  display: none;
+}
